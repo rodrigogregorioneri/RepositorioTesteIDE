@@ -43,7 +43,7 @@
                     <appname>AppTesteCQ</appname>
                     <url>http://apptestecq.cronospaas.com</url>
                     <instances>1</instances>
-                    <memory>32</memory>
+                    <memory>672</memory>
                 </configuration>
             </plugin>
             <plugin>
