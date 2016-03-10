@@ -1,0 +1,33 @@
+<div class="component-holder ng-binding ng-scope" data-component="crn-datasource" id="crn-datasource-29671"><datasource name="dsCidade" entity="api/rest/sample/pessoa/Cidade" keys="id" rows-per-page="100" on-before-create="" on-after-create="" on-before-update="" on-after-update="" on-before-delete="" on-after-delete="" class=""></datasource></div><div class="component-holder ng-binding ng-scope selected-holder" data-component="crn-combobox-dynamic" id="crn-combobox-dynamic-721885"><div class="form-group">
+	<label for="">Label</label>
+	<ui-select crn-datasource="dsCidade" ng-model="teste" ng-disabled="disabled" theme="bootstrap" class="crn-select"> 
+    <ui-select-match placeholder="Select..." class="">
+       {{$select.selected}} 
+    </ui-select-match> 
+    <ui-select-choices repeat="rowData as rowData in datasource.data | filter : $select.search" class=""> 
+      <div class="" data-container="true">
+         {{rowData}} 
+      </div> 
+    </ui-select-choices> 
+  </ui-select>
+</div></div><div class="component-holder ng-binding ng-scope" data-component="crn-sidebar" id="crn-sidebar-565617"><div class="nav-side-menu navbar-default"> 
+  <div class="brand"> 
+    <div class="avatar hidden-xs hidden-sm"> 
+      <img alt="" ng-src="{{vm.userpictureurl || 'img/nophoto.png'}}" class=""> 
+    </div> 
+    <div class="info"> 
+      <div class="name navbar-brand">Teste</div> 
+    </div> 
+  </div> 
+  <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content1"></i> 
+  <div class="menu-list"> 
+    <ul id="menu-content1" class="menu-content collapse out navbar-nav"> 
+      <li data-toggle="collapse" data-target="#menu-sub-1" class="collapsed component-holder" data-component="crn-sidebar-item"> 
+        <a href="#/home" class=""><i class="fa fa-lg fa-home"></i> <span class="">Home</span></a> 
+      </li> 
+      <li data-toggle="collapse" data-component="crn-sidebar-item" data-target="#menu-sub-2787" class="collapsed component-holder" ng-click="logout()">
+        <a href="javascript:void(0);" class=""><i class="fa fa-lg fa-sign-out"></i> <span class="">Logout</span></a> 
+      </li> 
+    <li data-toggle="collapse" data-component="crn-sidebar-item" data-target="#menu-sub-9867" class="collapsed active component-holder"><a href="javascript:void(0);" class=""><i class="fa fa-users fa-lg"></i> <span class="">Cadastro 1</span> <span class="arrow"></span></a> <ul class="sub-menu collapse  navbar-nav" id="menu-sub-9867"> <li><a href="#/home/logged/pessoa" class="component-holder" data-component="crn-anchor">Pessoa</a></li>  </ul> </li> <li data-toggle="collapse" data-component="crn-sidebar-item" data-target="#menu-sub-7966" class="collapsed active component-holder"><a href="javascript:void(0);" class=""><i class="fa fa-users fa-lg"></i> <span class="">Cadastro 2</span> <span class="arrow"></span></a> <ul class="sub-menu collapse  navbar-nav" id="menu-sub-7966"> <li><a href="#/home/logged/cidade" class="component-holder" data-component="crn-anchor">Cidade</a></li>  </ul> </li> </ul> 
+  </div> 
+</div></div>

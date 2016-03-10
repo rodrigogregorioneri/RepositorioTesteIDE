@@ -1,0 +1,10 @@
+/* Your css code goes here */
+
+.lead.text-left { 
+  border-top-width: 25px;
+  border-top-style: solid;
+  border-top-color: rgb(0, 0, 0);
+  border-top-right-radius: 52px;
+  border-bottom-right-radius: 52px;
+  background-color: rgb(142, 232, 147);
+}
