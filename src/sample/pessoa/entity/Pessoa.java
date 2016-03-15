@@ -6,7 +6,7 @@ import java.util.*;
 import javax.xml.bind.annotation.*;
 
 /**
- * Classe que representa a tabela PESSOA
+ * Classe que representa a tabela PESSOA teste
  * @generated
  */
 @Entity
